@@ -15,25 +15,25 @@ namespace CONSOLE_APP
             Console.WriteLine("Whats my first name? go on, give it a guess.");
             string guessedName = Console.ReadLine();
 
-            bool name = guessedName == "Jon";
+            bool name = guessedName == "jon";
 
             do
             {
                 switch (guessedName)
                 {
-                    case "Jon":
+                    case "jon":
                         Console.WriteLine("\nWow, you got it right, nice job.");
                         name = true;
                         break;
 
-                    case "John":
+                    case "john":
                         Console.WriteLine("\nReally a silent h... no sir, close though.");
                         Console.WriteLine("\nLet's try this again. Whats my first name?");
                         guessedName = Console.ReadLine();
                         break;
 
-                    case "Bob":
-                        Console.WriteLine("\nNo I'm not a Bob.");
+                    case "bob":
+                        Console.WriteLine("\nNo I'm not a bob.");
                         Console.WriteLine("\nLet's try this again. Whats my first name?");
                         guessedName = Console.ReadLine();
                         break;
