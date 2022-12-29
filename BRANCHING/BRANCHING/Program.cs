@@ -43,7 +43,7 @@ namespace BRANCHING
 
             if (packageHeight + packageLength + packageWidth > 50)
             {
-                Console.WriteLine("Package too big to be shipped via Package Express.");
+                Console.WriteLine("If the package weight is over 50 or if the total dimensions are over 50 package too is big to be shipped via Package Express.");
                 Console.ReadLine();
 
             }
