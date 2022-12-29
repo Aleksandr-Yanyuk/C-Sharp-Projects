@@ -21,7 +21,7 @@ namespace BRANCHING
 
             if (packageWeight > 50)
             {
-                Console.WriteLine("Package too heavy to be shipped via Package Express. Have a good day.");
+                Console.WriteLine("Package is over 50, too heavy to be shipped via Package Express. Have a good day.");
                 Console.ReadLine();
 
             }
