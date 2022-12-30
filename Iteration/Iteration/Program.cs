@@ -91,7 +91,7 @@ namespace Iteration
             }
 
             List<string> secondFoodList = new List<string>();
-            string[] foodsAgain = { "Siomai", "Siopao", "Lomi", "Pansit", "Goto", "Siomai", "Pansit", "Lomi" };
+            string[] foodsAgain = { "Siomai", "Siopao", "lomi", "pansit", "goto", "siomai", "pansit", "pomi" };
             secondFoodList.AddRange(foodsAgain);
 
             foreach (string food in secondFoodList)
@@ -107,8 +107,8 @@ namespace Iteration
             {
                 if (searchFood == food)
                 {
-                 Console.WriteLine("It looks like " + searchFood + " appeared in that index " + i + " Yummy.\n");
-                 Console.ReadLine();
+                    Console.WriteLine(searchFood + " is at index value: " + foodList.IndexOf(food));
+                    Console.ReadLine();
                 }
                 i++;
             }
@@ -118,7 +118,6 @@ namespace Iteration
                 Console.WriteLine("That's not in the list. Please try again.");
                 searchFood = Console.ReadLine();
             }
-
 
 
 
