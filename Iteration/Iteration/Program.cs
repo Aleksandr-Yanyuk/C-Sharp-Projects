@@ -91,7 +91,7 @@ namespace Iteration
             }
 
             List<string> secondFoodList = new List<string>();
-            string[] foodsAgain = { "Siomai", "Siopao", "lomi", "pansit", "goto", "siomai", "pansit", "pomi" };
+            string[] foodsAgain = { "siomai", "siopao", "lomi", "pansit", "goto", "siomai", "pansit", "pomi" };
             secondFoodList.AddRange(foodsAgain);
 
             foreach (string food in secondFoodList)
