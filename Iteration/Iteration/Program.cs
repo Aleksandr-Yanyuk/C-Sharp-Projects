@@ -89,7 +89,7 @@ namespace Iteration
                     searchFood = Console.ReadLine();
                 }
             }
-
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////5
             List<string> secondFoodList = new List<string>();
             string[] foodsAgain = { "siomai", "siopao", "lomi", "pansit", "goto", "siomai", "pansit", "pomi" };
             secondFoodList.AddRange(foodsAgain);
@@ -107,8 +107,8 @@ namespace Iteration
             {
                 if (searchFood == food)
                 {
-                    Console.WriteLine(searchFood + " is at index value: " + foodList.IndexOf(food));
-                    Console.ReadLine();
+                    Console.WriteLine(searchFood + " is at index value: " + secondFoodList.IndexOf(food));
+
                 }
                 i++;
             }
@@ -119,7 +119,7 @@ namespace Iteration
                 searchFood = Console.ReadLine();
             }
 
-
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 6
 
             List<string> drinksList = new List<string>();
             string[] drinks = { "Boba Milk Tea", "Green Tea", "Soda", "Milk", "Beer", "Green Tea", "Soda" };
