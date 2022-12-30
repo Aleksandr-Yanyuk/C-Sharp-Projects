@@ -107,9 +107,10 @@ namespace Iteration
             {
                 if (searchFood == food)
                 {
-                    i++;
+                 Console.WriteLine("It looks like " + searchFood + " appeared in that index " + i + " Yummy.\n");
+                 Console.ReadLine();
                 }
-
+                i++;
             }
 
             if (!secondFoodList.Contains(searchFood))
@@ -118,8 +119,8 @@ namespace Iteration
                 searchFood = Console.ReadLine();
             }
 
-            Console.WriteLine("It looks like " + searchFood + " appeared in that list " + i + "  times. Yummy.\n");
-            Console.ReadLine();
+
+
 
             List<string> drinksList = new List<string>();
             string[] drinks = { "Boba Milk Tea", "Green Tea", "Soda", "Milk", "Beer", "Green Tea", "Soda" };
