@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace METHODSANDOBJECTS
 {
-    class Employee
+    class Employee : Person
     {
         public Employee(int id)
         {
