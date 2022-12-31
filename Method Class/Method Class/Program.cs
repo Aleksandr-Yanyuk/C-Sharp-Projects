@@ -11,7 +11,7 @@ namespace Method_Class
         static void Main(string[] args)
         {
             // ESTABLISHING AN INT FOR MY OUT PARAMETER IN division CLASS
-            int num1;
+  
 
             Console.WriteLine("Enter a even number to be divided by two.");
             int input = Convert.ToInt32(Console.ReadLine());
@@ -24,7 +24,8 @@ namespace Method_Class
             // OVERLOADED METHOD BEFORE STATIC WAS ADDED TO CLASS
             //div.divM(out num1);
 
-            division.divM(out num1);
+            division.divM(out int number1);
+            Console.WriteLine(number1);
 
             Console.ReadLine();
         }
