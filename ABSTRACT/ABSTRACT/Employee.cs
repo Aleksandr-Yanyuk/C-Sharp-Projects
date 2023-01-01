@@ -14,9 +14,6 @@ namespace ABSTRACT
             base.SayName();
         }
 
-        public void Quit()
-        {
-            Console.WriteLine("\nCurrent status: \nHas quit");
-        }
+
     }
 }
