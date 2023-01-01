@@ -13,7 +13,8 @@ namespace ABSTRACT
             Employee employee = new Employee() { FirstName = "Sample", LastName = "Student" };
             employee.SayName();
 
-
+            IQuittable quit = new Employee();
+            quit.Quit();
 
             Console.ReadLine();
         }
