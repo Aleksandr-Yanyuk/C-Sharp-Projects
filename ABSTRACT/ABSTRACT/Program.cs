@@ -10,7 +10,7 @@ namespace ABSTRACT
     {
         static void Main(string[] args)
         {
-            //Inside the Main() method, instantiate an Employee object with
+            //Inside the Main() method, instantiated an Employee object with
             //firstName “Sample” and lastName “Student”. Call the SayName() method on the object.
             Employee employee = new Employee() { FirstName = "Sample", LastName = "Student" };
             employee.SayName();
