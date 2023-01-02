@@ -13,7 +13,8 @@ namespace POLYMORPHISM
             Console.WriteLine("Employee: ");
             base.SayName();
         }
-
+        //My Employee class inherits the interface
+        //and implements the Quit() method 
         public void Quit()
         {
             Console.WriteLine("\nCurrent satic: \nHas quit");
