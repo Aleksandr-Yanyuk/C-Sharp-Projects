@@ -10,18 +10,14 @@ namespace DateTime
     {
         static void Main(string[] args)
         {
-            //instantiates new DateTime object
-            DateTime now = DateTime.Now;
+            DateTime current = DateTime.Now;//declaring our DateTime 
+            Console.WriteLine("At this moment in time, it is: " + current);
+            Console.WriteLine("Enter a number: ");
+            string userNum = Console.ReadLine();//users input gets converted to a user string
+            int userInt = Convert.ToInt32(userNum);//userInt gets converted to int32
+            DateTime futureTime = current.AddHours(userInt);//this gives us current time
 
-            //shows only time of DateTime
-            Console.WriteLine(now.ToString("hh:mm tt"));
-            Console.WriteLine("Please enter a number.");
-            //Converts user input to data type of double
-            Double x = Convert.ToDouble(Console.ReadLine());
-            //adds user input to current time, instantiating it to later
-            DateTime later = DateTime.Now.AddHours(x);
-            //writes only the time of the DateTime added from user input
-            Console.WriteLine(later.ToString("hh:mm tt"));
+            Console.WriteLine("In " + userInt + " hours, it will be " + futureTime);//math equation to get users time and date adds the users input from the first question, returns future time specified by you. date and time + fututre time.
             Console.ReadLine();
         }
     }
