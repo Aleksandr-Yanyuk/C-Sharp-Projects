@@ -1,5 +1,6 @@
+<!DOCTYPE html>
 These are some small projects i made using c# and .Net Framework.
-
+<html>
 Projects: 
 <a href="../html-link.html#generator">HTML link code generator</a>
   Car Insurance, This project is a MVC web app that mimics a car insurance website. It takes user's input on policy information and calculates a quote based on business logic. There is also an admin page that allows staff to view all of the quotes that have been issued.
@@ -14,3 +15,4 @@ This app is an ASP.NET MVC web App that calculates a car insurance quote based o
 This project is a simple console app that gets input from the user and either generates a shipping quote or notifies the user that their package cannot be shipped if it is too heavy or too large to be shipped.
 
 ![csharp-colored](https://user-images.githubusercontent.com/118482231/211764307-9ea9802d-c1fa-48a5-9b0d-42ec704eb85c.svg)
+</html>
