@@ -1,7 +1,7 @@
 These are some small projects i made using c# and .Net Framework.
 
 Projects: 
-<a href="https://github.com/Alex745i/C-Sharp-Projects/tree/main/CarInsurance/CarInsurance-main"</a>
+<a href="https://github.com/Alex745i/C-Sharp-Projects/tree/main/CarInsurance/CarInsurance-main</a>
   Car Insurance, This project is a MVC web app that mimics a car insurance website. It takes user's input on policy information and calculates a quote based on business logic. There is also an admin page that allows staff to view all of the quotes that have been issued.
   
   Newsletter Sign-Up
