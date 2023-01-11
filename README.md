@@ -3,7 +3,7 @@
 <html>
 <body>
   
- <h1>&nbsp;&nbsp;These are some small projects i made using c# and .Net Framework.<h/1>
+ <h1>&nbsp;These are some small projects i made using c# and .Net Framework.<h/1>
   
   
    <h2>Car Insurance Quote</h2>
