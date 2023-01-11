@@ -1,4 +1,4 @@
-These are some small projects i made using c# and .Net Framework
+These are some small projects i made using c# and .Net Framework.
 
 Project: 
 
